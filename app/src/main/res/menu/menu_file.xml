@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020, Shashank Verma <shashank.verma2002@gmail.com>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_help_outline_black_24dp"
+        android:title="@string/help"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/contact_dev"
+        android:title="@string/contact_developer" />
+
+    <item
+        android:id="@+id/privacy_viewer"
+        android:title="@string/privacy_policy" />
+
+    <item
+        android:id="@+id/theme"
+        android:icon="@drawable/ic_theme_24dp"
+        android:title="@string/change_theme"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/sensor_test"
+        android:icon="@drawable/ic_phonelink_ring_black_24dp"
+        android:title="@string/sensor_testings"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/rate"
+        android:title="@string/rate_this_app" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="@string/share_this_app" />
+
+</menu>

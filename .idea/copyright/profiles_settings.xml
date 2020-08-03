@@ -1,0 +1,22 @@
+<component name="CopyrightManager">
+  <settings default="git">
+    <module2copyright>
+      <element module="All" copyright="git" />
+    </module2copyright>
+    <LanguageOptions name="JAVA">
+      <option name="fileLocation" value="3" />
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
+      <option name="lenBefore" value="120" />
+      <option name="lenAfter" value="120" />
+      <option name="box" value="true" />
+    </LanguageOptions>
+    <LanguageOptions name="Kotlin">
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
+      <option name="lenBefore" value="120" />
+      <option name="lenAfter" value="120" />
+      <option name="box" value="true" />
+    </LanguageOptions>
+  </settings>
+</component>

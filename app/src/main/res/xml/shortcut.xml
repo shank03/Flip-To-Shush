@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020, Shashank Verma <shashank.verma2002@gmail.com>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  -->
+
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_enable"
+        android:shortcutId="enable_feature"
+        android:shortcutLongLabel="@string/enable_f"
+        android:shortcutShortLabel="@string/enable_f">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.alpha.dev.flip_to_shush.activities.FeatureStarter"
+            android:targetPackage="com.alpha.dev.flip_to_shush">
+
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_close"
+        android:shortcutId="stop_feature"
+        android:shortcutLongLabel="@string/stop_feature"
+        android:shortcutShortLabel="@string/stop_feature">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.alpha.dev.flip_to_shush.activities.FeatureStopper"
+            android:targetPackage="com.alpha.dev.flip_to_shush">
+
+        </intent>
+    </shortcut>
+
+</shortcuts>
