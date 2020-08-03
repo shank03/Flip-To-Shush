@@ -12,17 +12,6 @@
  * copies or substantial portions of the Software.
  */
 
-/**********************************************************************************************************************
- * Alpha Developer<sup>TM</sup> Inc. Copyright (c) 2019.                                                              *
- * This is the work of, from and by individual team member.  Any duplication or publication of this code without our  *
- * consent AND without this Copyrighted Text is subjected to Copyright Infringement and could even lead to court      *
- * cases.                                                                                                             *
- *                                                                                                                    *
- * Contact emails :-                                                                                                  *
- *     (Group) alphadeveloper3@gmail.com                                                                              *
- *     (Team Leader) shashank.verma2002@gmail.com                                                                     *
- **********************************************************************************************************************/
-
 package com.alpha.dev.flip_to_shush.activities
 
 import android.annotation.SuppressLint
